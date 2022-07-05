@@ -14,7 +14,7 @@ function adminRef() {
         for (const adminId in snapshot.val()) {
             const admin = snapshot.val()[adminId];
             if (username === admin.username && password === admin.password) {
-              window.location.href = "admin.html";
+              window.location.href = "admin.jsp";
             } 
         }
       })
