@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    width: 400px;
+    border: solid 1px #EBEBEB;
+    padding: 5rem;
+}
+
+
+table {
+    width: 800px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #EEEEEE;
+}
+
+/* Navbar Style */
+.navbar {
+    z-index: 3;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.nav-link {
+    font-size: 16px;
+}
+
+.nav-link.active {
+    font-weight: 700;
+}
+
+.button-search {
+    width: 100px;
+    height: 40px;
+    background-color: #fff;
+    color: var(--pr-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5%;
+}
